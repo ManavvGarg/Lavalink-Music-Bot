@@ -1,7 +1,7 @@
 {
-  "name": "XyNO-bot",
+  "name": "lavalink-music-bot",
   "version": "2.0.0",
-  "description": "XyNO The multipurpose bot",
+  "description": "",
   "main": "index.js",
   "dependencies": {
     "@discordjs/opus": "^0.3.2",
