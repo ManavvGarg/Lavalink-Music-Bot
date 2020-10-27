@@ -3,7 +3,7 @@
 #### Requirements & Steps
 * This Project
 * Node.js, Erela.js, erela.js-spotify plugin Installed
-* Discord Bot Token, YouTube v3 API Key, Prefix, Genius Token (Optional), Owner ID (Optional)
+* Discord Bot Token, Spotify Client Secret, Spotify Client ID, Prefix, Genius Token (Optional), Owner ID (Optional)
 * Edit the `config.js` file
 * Run `npm i` once in Terminal to install Dependencies
 * Run `node index.js` to ***RUN*** the bot.
