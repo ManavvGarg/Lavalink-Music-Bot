@@ -2,8 +2,8 @@
 
 #### Requirements & Steps
 * This Project
-* Node.js, Erela.js, erela.js-spotify plugin Installed
-* Discord Bot Token, Spotify Client Secret, Spotify Client ID, Prefix, Genius Token (Optional), Owner ID (Optional)
+* Node.js, Erela.js, erela.js-spotify plugin, 'is-absolute-url' node module and ksoft.js node module Installed
+* Discord Bot Token, Spotify Client Secret, Spotify Client ID, Prefix, KSOFT Token (Optional IF NOT USING THE LYRICS COMMAND), Owner ID (Optional)
 * Edit the `config.js` file
 * Run `npm i` once in Terminal to install Dependencies
 * Run `node index.js` to ***RUN*** the bot.
@@ -13,8 +13,10 @@
 * Erela easy to understand code
 * Made by Manav Garg
 * BassBoost Filter
+* Lyrics Command. Having a library of more than 55M+ Songs. [KSOFT Lyric Module used]
 
 #### Commands
+* lyrics
 * bassboost
 * jump
 * loop
@@ -40,3 +42,10 @@
 4) **spCS** is your Spotify Application's Client Secret which you can get at the Spotify Developer Portal.
 
 5) **nodes** are your lavalink connection details, the default port is ```2333```, host would be ```localhost``` and password would be ```youshallnotpass```. You need to get the details of your host's lavalink server from them if you're not localhosting your bot.
+
+6) **Lyrics** command requires KSOFT'S API V1 TOKEN. You can submit your bot's application and if it is suitable, you may get the token on your dashboard. You may join their support server for more info.
+Their Server: [Click Here](https://discord.gg/saewafb8dJ)
+Their API Website/Dashboard: [Click Here](https://api.ksoft.si/?utm_source=ksoft.si)
+
+# NOTE:  
+IF YOU HAVE NOT ACQUIRED KSOFT API TOKEN AND PLAN TO NOT USE THE LYRIC COMMAND, DELETE THE LYRIC COMMAND FROM THE COMMANDS FOLDER!
