@@ -74,10 +74,6 @@ module.exports = async bot => {
     channel.send("Queue has ended. Bye! :wave: ");
     player.destroy();
   });
-//When someone manually disconnects the bot. it justs destroys the player.
-  bot.manager.on("socketClosed", player => {
-    player.destroy();
-  })
   
   
     
