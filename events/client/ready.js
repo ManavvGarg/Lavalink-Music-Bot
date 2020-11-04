@@ -76,5 +76,14 @@ module.exports = async bot => {
   });
   
   
+   //When someone manually disconnects the bot. it justs destroys the player.
+	bot.manager.on("socketClosed", (player, payload) => {
+		if(payload.byRemote === true) player.destroy();
+	});
+	bot.manager.on("playerMove", (player, currentChannel, newChannel) => {
+		if(!newChannel) player.destroy();
+		else player.voiceChannel = newChannel;
+	});
+  
     
 };
