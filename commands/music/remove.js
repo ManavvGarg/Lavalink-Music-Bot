@@ -11,6 +11,7 @@ module.exports = {
             aliases: ['removefrom', 'removerange'],
     },
 	run: async(bot, message, args) => {
+        //prefix checking and fetching
         let prefix;
         let fetched = await db.fetch(`prefix_${message.guild.id}`);
 
@@ -20,16 +21,20 @@ module.exports = {
             prefix = fetched
         }
 
-		const player = message.client.manager.players.get(message.guild.id);
 
-		if (isNaN(args[0])) return message.channel.send('Invalid number.');
+		const player = message.client.manager.players.get(message.guild.id); // get the player
 
-        if (args[0] == 0) return message.channel.send(`Cannot remove a song that is already playing. To skip the song type: \`${prefix}skip\``);
-        if (args[0] > player.queue.length) return message.channel.send('Song not found.');
+		if (isNaN(args[0])) return message.channel.send('Invalid number.'); //check if the args provided by the user is a number or not.
 
-        const { title } = player.queue[args[0] - 1];
+        //return error message if the command is used to remove the current playing song
+        if (args[0] == 0) return message.channel.send(`Cannot remove a song that is already playing. To skip the song type: \`${prefix}skip\``); 
 
-        player.queue.splice(args[0] - 1, 1);
-        return message.channel.send(`Removed ***${title}*** from the queue`);
+        if (args[0] > player.queue.length) return message.channel.send('Song not found.'); //check to see if the song exists in the queue.
+
+        const { title } = player.queue[args[0] - 1]; //grab the title of, to be removed song
+
+        player.queue.splice(args[0] - 1, 1); //remove the song using the splice property
+
+        return message.channel.send(`Removed ***${title}*** from the queue`); 
 	}
 }
