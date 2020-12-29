@@ -30,6 +30,6 @@ const levels = {
   
       player.setEQ(...new Array(3).fill(null).map((_, i) => ({ band: i, gain: levels[level] })));
   
-      return message.reply(`Done | Set the bassboost level to ${level}`);
+      return message.reply(`Done || Set the bassboost level to ${level}`);
     }
   }
