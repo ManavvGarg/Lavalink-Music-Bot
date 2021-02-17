@@ -26,7 +26,7 @@
     "path": "^0.12.7",
     "quick.db": "^7.1.1",
     "request-promise-native": "^1.0.9",
-    "soundcloud-downloader": "^0.1.5",
+    "soundcloud-downloader": "^0.2.4",
     "superagent": "^6.1.0",
     "utf8": "^3.0.0"
   },
