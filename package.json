@@ -8,7 +8,7 @@
     "axios": "^0.20.0",
     "common-tags": "^1.8.0",
     "cpu-stat": "^2.0.1",
-    "discord.js": "^12.3.1",
+    "discord.js": "^12.5.1",
     "erela.js": "^2.0.1",
     "erela.js-spotify": "^1.0.2",
     "ffmpeg": "^0.0.4",
