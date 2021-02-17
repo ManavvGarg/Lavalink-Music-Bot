@@ -10,7 +10,7 @@
     "cpu-stat": "^2.0.1",
     "discord.js": "^12.3.1",
     "erela.js": "^2.0.1",
-    "erela.js-spotify": "^1.0.2",
+    "erela.js-spotify": "^1.2.0",
     "ffmpeg": "^0.0.4",
     "ffmpeg-static": "^4.2.7",
     "fs": "^0.0.1-security",
