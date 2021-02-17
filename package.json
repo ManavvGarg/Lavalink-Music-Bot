@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "@discordjs/opus": "^0.4.0",
-    "axios": "^0.20.0",
+    "axios": "^0.21.1",
     "common-tags": "^1.8.0",
     "cpu-stat": "^2.0.1",
     "discord.js": "^12.5.1",
