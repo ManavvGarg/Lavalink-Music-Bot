@@ -16,7 +16,7 @@
     "fs": "^0.0.1-security",
     "got": "^11.5.2",
     "i": "^0.3.6",
-    "moment": "^2.27.0",
+    "moment": "^2.29.1",
     "moment-duration-format": "^2.3.2",
     "ms": "^2.1.2",
     "node-fetch": "^2.6.0",
