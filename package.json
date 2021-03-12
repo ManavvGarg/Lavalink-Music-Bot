@@ -14,7 +14,7 @@
     "ffmpeg": "^0.0.4",
     "ffmpeg-static": "^4.2.7",
     "fs": "^0.0.1-security",
-    "got": "^11.8.1",
+    "got": "^11.8.2",
     "i": "^0.3.6",
     "moment": "^2.29.1",
     "moment-duration-format": "^2.3.2",
