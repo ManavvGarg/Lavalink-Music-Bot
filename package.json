@@ -12,7 +12,7 @@
     "erela.js": "^2.3.2",
     "erela.js-spotify": "^1.2.0",
     "ffmpeg": "^0.0.4",
-    "ffmpeg-static": "^4.2.7",
+    "ffmpeg-static": "^4.2.8",
     "fs": "^0.0.1-security",
     "got": "^11.8.2",
     "i": "^0.3.6",
